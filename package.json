@@ -4,8 +4,8 @@
   "description": "Resoundly Home page design",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "build-css":"npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Maryjanee/Resoundly.git"
