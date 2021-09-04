@@ -1,0 +1,23 @@
+{
+  "name": "resoundly",
+  "version": "1.0.0",
+  "description": "Resoundly Home page design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maryjanee/Resoundly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maryjanee/Resoundly/issues"
+  },
+  "homepage": "https://github.com/Maryjanee/Resoundly#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.9"
+  }
+}
