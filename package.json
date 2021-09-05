@@ -4,7 +4,7 @@
   "description": "Resoundly Home page design",
   "main": "index.js",
   "scripts": {
-    "build-css":"npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css"
+    "build-css":"npx tailwindcss -i ./src/styles.css -o ./dist/styles.css"
     },
   "repository": {
     "type": "git",
