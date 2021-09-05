@@ -12,3 +12,7 @@
   .feature-card{
     @apply mt-10 text-center p-8;
   }
+
+  .btn{
+   @apply py-4 px-12 font-bold text-base bg-white text-gray-800 rounded
+  }
