@@ -32254,6 +32254,20 @@ video {
   content: none;
 }
 
+.nav-link {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+.feature-card{
+  margin-top: 2.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
