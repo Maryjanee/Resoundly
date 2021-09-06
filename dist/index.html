@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Resoundly</title>
   </head>
-  <body class="font-sans">
+  <body class="font-sans relative">
     <div class="container">
       <nav class="flex w-full justify-between py-5 items-center">
         <a class="w-52" href="/">
@@ -34,22 +34,14 @@
             <a href="#" class="nav-link">Login</a>
             <a
               href="#"
-              class="
-                
-                bg-indigo-600
-                rounded
-                text-white
-                px-5
-                py-3
-                font-semibold
-              "
+              class="bg-indigo-600 rounded text-white px-5 py-3 font-semibold"
               >Sign up</a
             >
           </div>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6 mt-5 lg:hidden"
+          class="h-6 w-6 mt-5 lg:hidden mobile-nav"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -61,6 +53,42 @@
             d="M4 6h16M4 12h16M4 18h7"
           />
         </svg>
+        <div
+          class="
+            mobile-nav-display
+            absolute
+            top-0
+            hidden
+            right-0
+            w-1/2
+            h-screen
+            px-12
+            bg-indigo-600
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mt-12 absolute right-0 mr-6 close-nav text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+          <div class="flex flex-col mt-32 text-white font-light">
+            <a href="" class="my-4 text-xl">Features</a>
+            <a href="" class="my-4 text-xl">Examples</a>
+            <a href="" class="my-4 text-xl">Pricing</a>
+            <a href="" class="my-4 text-xl">Support</a>
+            <a href="" class="my-4 text-xl">Login</a>
+            <a href="" class="my-4 text-xl">Sign Up</a>
+          </div>
+        </div>
       </nav>
 
       <header class="h-auto rounded mt-12 bg-indigo-600">
@@ -74,9 +102,7 @@
             even re-recording your mistakes.
           </p>
           <div class="flex flex-wrap gap-4 mt-5">
-            <a href="#" class="btn"
-              >Discover More</a
-            >
+            <a href="#" class="btn">Discover More</a>
 
             <a href="#" class="flex gap md:ml-4 py-4">
               <svg
@@ -149,9 +175,7 @@
 
       <section
         class="
-          border-t-2 
-          border-b-2 
-          border-gray-100
+          border-t-2 border-b-2 border-gray-100
           justify-between
           w-full
           flex flex-col
@@ -230,16 +254,8 @@
         </div>
       </section>
       <section
-        class="
-          justify-between
-          w-full
-          flex flex-col
-          lg:flex-row
-          mt-40
-          p-4
-        "
+        class="justify-between w-full flex flex-col lg:flex-row mt-40 p-4"
       >
-       
         <div class="px-8 lg:w-8/12">
           <h3 class="lg:w-3/4 lg:text-left my-4 text-2xl md:text-4xl">
             An exceptionally intuitive editor to create podcasts
@@ -311,11 +327,14 @@
       </section>
 
       <section class="bg-indigo-600 rounded w-full p-5 lg:p-20">
-          <h4 class="text-white text-center my-4 text-2xl md:text-4xl ">Ready to create a podcast?</h4>
-          <button class="btn mx-auto my-10 flex justify-center">Get Started for Free</button>
+        <h4 class="text-white text-center my-4 text-2xl md:text-4xl">
+          Ready to create a podcast?
+        </h4>
+        <button class="btn mx-auto my-10 flex justify-center">
+          Get Started for Free
+        </button>
       </section>
       <footer>
-     
         <ul class="w-10/12 flex-wrap mx-auto flex m-24 py-15 justify-evenly">
           <li>
             <a href="#" class="footer-link">Pricing</a>
@@ -327,18 +346,15 @@
             <a href="#" class="footer-link">Contact</a>
           </li>
           <li>
-            <a href="#" class=" footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Privacy Policy</a>
           </li>
           <li>
             <a href="#" class="footer-link">Terms of service</a>
           </li>
         </ul>
-
-        
-
-    </footer>
+      </footer>
     </div>
 
-    
+    <script src="index.js"></script>
   </body>
 </html>
