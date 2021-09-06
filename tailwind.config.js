@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        body: ['Cabin']
+        body: ['Poppins']
       }
 
       
