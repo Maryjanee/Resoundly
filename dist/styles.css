@@ -32283,6 +32283,14 @@ video {
   color: rgba(31, 41, 55, var(--tw-text-opacity))
 }
 
+.footer-link{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 500
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

@@ -16,3 +16,7 @@
   .btn{
    @apply py-4 px-12 font-bold text-base bg-white text-gray-800 rounded
   }
+
+  .footer-link{
+    @apply py-4  mx-4  font-medium
+  }
