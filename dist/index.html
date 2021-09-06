@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Resoundly</title>
   </head>
-  <body class="font-sans relative">
+  <body class="font-body relative">
     <div class="container">
       <nav class="flex w-full justify-between py-5 items-center">
         <a class="w-52" href="/">
@@ -34,7 +34,7 @@
             <a href="#" class="nav-link">Login</a>
             <a
               href="#"
-              class="bg-indigo-600 rounded text-white px-5 py-3 font-semibold"
+              class="bg-indigo-600 rounded text-white px-5 py-3 font-normal"
               >Sign up</a
             >
           </div>
@@ -93,7 +93,15 @@
 
       <header class="h-auto rounded mt-12 bg-indigo-600">
         <div class="w-full p-10 lg:p-24 text-white lg:w-3/4">
-          <h1 class="text-3xl lg:text-6xl font-medium tracking-wide my-4">
+          <h1
+            class="
+              text-3xl
+              lg:text-5xl lg:leading-normal
+              font-medium
+              tracking-wide
+              my-4
+            "
+          >
             Create a podcast, without recording a thing.
           </h1>
           <p class="mt-6 mb-20 leading-relaxed font-light text-base sm:text-lg">
@@ -258,29 +266,24 @@
       >
         <div class="px-8 lg:w-8/12">
           <h3 class="lg:w-3/4 lg:text-left my-4 text-2xl md:text-4xl">
-            An exceptionally intuitive editor to create podcasts
+            Podcast hosting & analytics
           </h3>
           <article class="grid my-10 grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
-              <h5 class="my-5 text-2xl">
-                Type your podcast as if it were a blog
-              </h5>
+              <h5 class="my-5 text-2xl">Podcast hosting and RSS feed</h5>
               <p class="font-light">
-                Our easy to use text editor allows you to craft your perfect
-                podcast, and when you’re ready convert the text to audio. Or
-                even paste in your existing blog post and let Resoundly’s AI
-                produce the audio.
+                Resoundly supplies all the tools you need to get your podcast up
+                and running as quick as can be. Your files are backed by state
+                of the art cloud storage and content delivery networks,
+                providing superior up time and availability.
               </p>
             </div>
             <div>
-              <h5 class="my-5 text-2xl">
-                Include audio snippets, songs, tunes, jingles…
-              </h5>
+              <h5 class="my-5 text-2xl">Straight-forward podcast analytics</h5>
               <p class="font-light">
-                With our intuitive editor, you have the ability to upload audio
-                files and place anywhere you desire within your episode. Whether
-                it’s an intro jingle or even a recorded audio snippet, you have
-                the freedom.
+                Resoundly provides easy to read stats and graphs on your
+                podcast’s monthly downloads, the country downloaded from and
+                application used to download.
               </p>
             </div>
             <div>
@@ -294,16 +297,17 @@
               </p>
             </div>
             <div>
-              <h5 class="my-5 text-2xl">Single click text-to-speech</h5>
+              <h5 class="my-5 text-2xl">Host unlimited shows & episodes</h5>
               <p class="font-light">
-                At any time during your writing process, simply click the
-                ‘Produce’ button to convert your text to speech.
+                Create as many podcast shows and episodes as you’d like. You
+                aren’t charged per show, so flex your creative muscles and go
+                create.
               </p>
             </div>
           </article>
-          <div class="flex my-10">
+          <div class="flex my-20">
             <button class="text-indigo-600 text-base">
-              Register for a Free Trial
+              Sign up Now
             </button>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -335,7 +339,7 @@
         </button>
       </section>
       <footer>
-        <ul class="w-10/12 flex-wrap mx-auto flex m-24 py-15 justify-evenly">
+        <ul class="lg:w-10/12 flex-wrap mx-auto flex m-24 py-15 justify-evenly">
           <li>
             <a href="#" class="footer-link">Pricing</a>
           </li>
